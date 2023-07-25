@@ -20,7 +20,7 @@ doc = [result['body_text'] for result in results]
 
 doc_text = ' '.join(doc)
 
-openai.api_key = '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'
+openai.api_key = ''
 #Bert
 # Load the model
 model = SentenceTransformer('all-MiniLM-L6-v2')
